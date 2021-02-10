@@ -1,0 +1,15 @@
+@media (max-width: 992px) {
+  .grid-container {
+    min-height: 550px;
+    display: grid;
+    grid:
+      "pic  js   js     info " 2fr
+      "java java php    php  " 1fr
+      "qa   qa   net    net  " 1fr
+      / 45% 5% 30% 20%;
+  }
+
+  body {
+    background-color: green;
+  }
+}

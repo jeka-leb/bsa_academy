@@ -1,0 +1,67 @@
+.js-transform:hover .card-cover {
+  transform: scale(0);
+  transform-origin: right bottom;
+}
+
+.js-transform .card-cover {
+  transform-origin: right bottom;
+  transition: 0.7s cubic-bezier(0.33, 1, 0.68, 1);
+}
+
+.php-transform:hover .card-cover {
+  transition: 0.7s cubic-bezier(0.33, 1, 0.68, 1);
+  transform: rotateY(60deg);
+  opacity: 0;
+}
+
+.qa-transform:hover .card-cover {
+    transition: 0.7s cubic-bezier(0.33, 1, 0.68, 1);
+    transform: rotateY(60deg);
+    opacity: 0;
+  }
+
+.pic-transform .card-cover {
+  transform-origin: top;
+  transition: 0.7s cubic-bezier(0.5, 0.095, 0.68, 0.53);
+}
+
+.pic-transform:hover .card-cover {
+  transform: rotateX(90deg);
+  opacity: 0.8;
+}
+
+.net-transform .card-cover {
+  transform-origin: left;
+  opacity: 1;
+  transition: 0.7s cubic-bezier(0.33, 1, 0.68, 1);
+}
+.net-transform:hover .card-cover {
+  transform: rotateY(100deg);
+  transform-origin: left;
+  opacity: 0;
+}
+
+.info-events:hover .card-cover {
+  transition: 0.7s cubic-bezier(0.26, 0, 0.66, -0.5);
+  transform: translateX(150px) rotateY(-90deg);
+}
+
+.info-blog:hover .card-cover {
+  transition: 0.7s cubic-bezier(0.36, 0, 0.56, -0.56);
+  transform: translateX(150px) rotateY(-90deg);
+}
+
+.info-contacts:hover .card-cover {
+  transition: 0.7s cubic-bezier(0.46, 0, 0.56, -0.46);
+  transform: translateX(150px) rotateY(-90deg);
+}
+
+.java-transform .card-cover {
+  transform-origin: left;
+  transition: 0.7s cubic-bezier(0.45, 0.09, 0.65, 0.54);
+}
+.java-transform:hover .card-cover {
+  opacity: 0;
+  transform: scaleX(0);
+  transform-origin: left;
+}

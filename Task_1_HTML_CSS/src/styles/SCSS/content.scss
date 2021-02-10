@@ -1,0 +1,40 @@
+.bsa > .card-content {
+  align-items: center;
+}
+
+.js .card-content,
+.php .card-content,
+.qa .card-content,
+.net .card-content,
+.java .card-content {
+  font-weight: bold;
+}
+
+.info-contacts .card-content {
+  justify-content: space-around !important;
+  align-items: center;
+}
+
+.academy-btn {
+  height: 1rem;
+  color: white;
+  background-color: #096bd4;
+  text-decoration: none;
+  padding: 1rem 1.5rem;
+  text-decoration: none;
+  text-align: center;
+}
+
+.academy-btn:hover,
+.academy-btn:active {
+  background-color: #033a92;
+  border-radius: 3px;
+}
+
+.info-button {
+  color: black;
+}
+.info-button:hover,
+.info-button:active {
+  color: #089cf1;
+}
